@@ -41,10 +41,7 @@ const App = () => {
         </div>
         <div className="comment">
           <a href="/" className="avatar">
-            <img
-              alt="avatar"
-              src="https://image.freepik.com/free-vector/man-avatar-profile-round-icon_24640-14046.jpg"
-            ></img>
+            <img alt="avatar" src="https://image.freepik.com/free-vector/man-avatar-profile-round-icon_24640-14046.jpg"></img>
           </a>
           <div className="content">
             <a href="/" className="author">
