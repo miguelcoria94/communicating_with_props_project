@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import CommentDetails from "./CommentDetails"
+import AprovalCard from "./ApprovalCard"
 
 const App = () => {
     return (
-      <div className="ui container comments">
+        <div className="ui container comments">
+        <AprovalCard />
         <CommentDetails
           author="Miky"
           time="Today at 4:50PM"
