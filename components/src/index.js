@@ -5,14 +5,15 @@ import AprovalCard from "./ApprovalCard"
 
 const App = () => {
     return (
-        <div className="ui container comments">
-        <AprovalCard />
-        <CommentDetails
-          author="Miky"
-          time="Today at 4:50PM"
-          post="Wow what a great article"
-          imageLink="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png"
-        />
+      <div className="ui container comments">
+        <AprovalCard>
+          <CommentDetails
+            author="Miky"
+            time="Today at 4:50PM"
+            post="Wow what a great article"
+            imageLink="https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png"
+          />
+        </AprovalCard>
         <CommentDetails
           author="Arianna"
           time="Today at 4:33PM"
