@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CommentDetails = ({author}) => {
+const CommentDetails = ({author, time}) => {
     return (
       <div className="comment">
         <a href="/" className="avatar">
@@ -14,7 +14,7 @@ const CommentDetails = ({author}) => {
             {author}
           </a>
           <div className="metadata">
-            <span className="date">Today at 6 p.m</span>
+            <span className="date">{time}</span>
           </div>
           <div className="text">Nice Blog Post</div>
         </div>
